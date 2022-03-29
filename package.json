@@ -1,0 +1,24 @@
+{
+	"name": "forlearningandtestingpublishingtscomponents",
+	"version": "0.0.1",
+	"description": "",
+	"main": "dist/cjs/index.js",
+	"module": "dist/esm/index.js",
+	"scripts": {
+		"rollup": "rollup -c",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Anthony Cavuoti",
+	"license": "ISC",
+	"devDependencies": {
+		"@rollup/plugin-commonjs": "^21.0.3",
+		"@rollup/plugin-node-resolve": "^13.1.3",
+		"@rollup/plugin-typescript": "^8.3.1",
+		"@types/react": "^17.0.43",
+		"react": "^17.0.2",
+		"rollup": "^2.70.1",
+		"rollup-plugin-dts": "^4.2.0",
+		"typescript": "^4.6.3"
+	},
+	"types": "dist/index.d.ts"
+}
